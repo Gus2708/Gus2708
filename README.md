@@ -62,12 +62,11 @@ A cross-platform mobile POS solving real-world operational issues for small busi
 ### 📈 GitHub Analytics
 
 <div align="center">
-  <a href="https://github.com/Gus2708">
-    <img src="https://github-readme-stats.vercel.app/api?username=Gus2708&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Gustavo's GitHub Stats" />
-  </a>
-  <a href="https://github.com/Gus2708">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gus2708&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-  </a>
+
+[![Gustavo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO_AQUI&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/TU_USUARIO_AQUI)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO_AQUI&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/TU_USUARIO_AQUI)
+
 </div>
 
 ---
