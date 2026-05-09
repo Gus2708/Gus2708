@@ -63,9 +63,9 @@ A cross-platform mobile POS solving real-world operational issues for small busi
 
 <div align="center">
 
-[![Gustavo's GitHub Stats](https://github-stats.as93.net/api?username=Gus2708&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/Gus2708)
+[![Gustavo's GitHub Stats](https://github-readme-stats-henna-one-70.vercel.app/api?username=Gus2708&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/Gus2708)
 
-[![Top Languages](https://github-stats.as93.net/api/top-langs/?username=Gus2708&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/Gus2708)
+[![Top Languages](https://github-readme-stats-henna-one-70.vercel.app/api/top-langs/?username=Gus2708&count_private=true&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/Gus2708)
 
 </div>
 
