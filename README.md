@@ -1,21 +1,21 @@
 # Hi there, I'm Gustavo Reyes 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Integration+Specialist;Problem+Solver;Business-Driven+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F80ED&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;AI+Integration+Specialist;Business-Driven+Engineer" alt="Typing SVG" />
 </div>
 
 ---
 
-### 🚀 About Me: Bridging Business Operations & Scalable Tech
+### 🚀 About Me
 
-In the 2026 tech landscape, writing code is just the baseline; **architecting solutions that solve real business bottlenecks** is the true value. Coming from a background in Operations Management—where I reduced inventory discrepancies by 30%—I build production-ready applications that are secure, scalable, and user-centric. 
+Full Stack Developer specializing in **AI-integrated web and mobile applications**. I build and integrate software that's currently in **daily production use** at a real business — including an analytics app, a mobile POS, and an autonomous WhatsApp AI agent that serves live customers.
 
-I specialize in **AI-assisted development**, leveraging tools like Google Gemini and Prompt Engineering not just as novelties, but to automate workflows, reduce inter-party transaction costs, and deliver measurable business impact.
+Coming from an Operations Management background (where I led a team of 7 and cut inventory discrepancies by ~30%), I approach engineering from the problem first: I've seen the bottlenecks from the inside and built the software to solve them.
 
-- 🌍 **Based in:** Venezuela | **Available for Remote Roles**
-- 🗣️ **Languages:** Bilingual (Native Spanish / Proficient English)
-- 🧠 **Focus:** AI-Integrated SaaS, FinTech Solutions, RESTful APIs, and Relational Data Modeling
-- 📫 **Reach me at:** gusreyes_dev@outlook.com | [+58 4227898847]
+- 🌍 **Based in:** Venezuela · **Available for Remote Roles**
+- 🗣️ **Languages:** Spanish (Native) · English (B2 – Upper Intermediate)
+- 🧠 **Focus:** AI Integration, Full-Stack SaaS, RESTful APIs, Relational Data Modeling
+- 📫 **Reach me at:** gusreyes_dev@outlook.com · [LinkedIn](https://linkedin.com/in/gustavo-reyes)
 
 ---
 
@@ -23,9 +23,9 @@ I specialize in **AI-assisted development**, leveraging tools like Google Gemini
 
 **Frontend & Mobile**  
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
 
 **Backend & Databases**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -33,29 +33,38 @@ I specialize in **AI-assisted development**, leveraging tools like Google Gemini
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
 
-**Architecture, AI & DevOps**  
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-FF9900?style=for-the-badge&logo=openai&logoColor=white)
+**AI, Architecture & DevOps**  
+![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openai&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![TDD](https://img.shields.io/badge/TDD_%2F_Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
 ---
 
-### 🏆 Featured Production-Ready Projects
+### 🏆 Featured Projects
 
-*I build software with a focus on transparent AI integration, secure authentication, and robust data modeling.*
+*Software in real production use, with a focus on AI integration, secure data access, and robust architecture.*
 
-#### 1. [Splitty] - AI-Powered Expense Splitting & Settlement Platform
-A full-stack FinTech application designed to eliminate the friction of group expenses through AI data extraction and optimized transaction algorithms.
-* **Tech:** React 18, Flask, PostgreSQL, Supabase, Google Gemini API, Vercel, Render.
-* **Business Impact:** Engineered a heap-based algorithm that **reduces inter-party settlement transactions by up to 50%**.
-* **Architecture Decisions:** Integrated Gemini API for automated receipt parsing with structured data extraction. Implemented a dual-cloud deployment (Vercel/Render) automated via GitHub CI/CD, secured with JWT lifecycle management, bcrypt, and rate limiting.
+#### 1. [El Serrucho GO](https://github.com/Gus2708/el-serrucho-go) — Real-Time Inventory & Sales Analytics App · *In production*
+A mobile analytics dashboard in daily use at Ferretería El Serrucho, syncing an on-premise POS to the cloud in real time.
+* **Tech:** React Native (Expo), TypeScript, Supabase, PostgreSQL, Python.
+* **Highlights:** Python sync engine bridging native POS `.dat` files to the cloud · RLS-secured PostgreSQL · virtualized inventory of **7k+ products** · a staff queue that handles escalations from the WhatsApp AI agent.
 
-#### 2. [CaobaPOS] - Mobile Point-of-Sale & Inventory System
-A cross-platform mobile POS solving real-world operational issues for small businesses with unstable internet connections.
+#### 2. [WhatsApp AI Agent — "Perucho"](https://github.com/Gus2708/whatsapp-agent) — Autonomous Customer Service & Quoting Assistant · *In production*
+An event-driven WhatsApp agent that serves real customers: answers inventory questions, generates exact quotes, and escalates to staff when needed.
+* **Tech:** n8n, WAHA, GPT-4.1-mini (via OpenRouter), Groq Whisper, Supabase, PostgreSQL, Engram.
+* **Highlights:** Read-only DB connection for safe pricing · auto-generated quotes · voice-note transcription · long-term client memory · synchronization guards and a sanitize layer to keep corrupted LLM output from ever reaching customers.
+
+#### 3. [CaobaPOS](https://github.com/Gus2708) — Mobile Point-of-Sale & Inventory System · *Client project, in production*
+A cross-platform mobile POS actively used by a café client, built for small businesses with unstable internet.
 * **Tech:** React Native (Expo), Supabase, PostgreSQL.
-* **Business Impact:** Enables offline-first inventory management and generates branded PDF invoices with date-range filtered financial dashboards.
-* **Architecture Decisions:** Built the data layer utilizing PostgreSQL and Row Level Security (RLS) policies on Supabase to guarantee secure, multi-tenant access.
+* **Highlights:** Offline-first inventory · real-time sync · multi-tenant access via Row Level Security (RLS) · branded PDF invoices and date-range financial dashboards.
+
+#### 4. [Splitty](https://github.com/Gus2708/Splitty) — AI-Powered Expense Splitting Platform · *Final Capstone, 4Geeks Academy*
+A full-stack FinTech app that removes the friction of group expenses through AI data extraction and optimized settlements. · [Live demo](https://splitty.vercel.app)
+* **Tech:** React 18, Flask, PostgreSQL, Supabase, Google Gemini, PayPal, Vercel, Render.
+* **Highlights:** Heap-based algorithm that **reduces inter-party settlement transactions by up to 50%** · Gemini-powered receipt parsing · 30+ RESTful endpoints with JWT lifecycle, bcrypt, and rate limiting · dual-cloud deploy via GitHub CI/CD.
 
 ---
 
@@ -68,6 +77,3 @@ A cross-platform mobile POS solving real-world operational issues for small busi
 [![Top Languages](https://github-readme-stats-henna-one-70.vercel.app/api/top-langs/?username=Gus2708&count_private=true&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/Gus2708)
 
 </div>
-
----
-*"Good software is about writing clean code; great software is about solving the right problems."*
