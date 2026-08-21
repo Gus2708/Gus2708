@@ -59,7 +59,7 @@ Coming from an Operations Management background (where I led a team of 7 and cut
 #### 1. [WhatsApp AI Agent — "Perucho"](https://github.com/Gus2708/whatsapp-agent) — Autonomous Customer Service & Quoting Assistant · *In production*
 An event-driven WhatsApp agent serving real customers daily at Ferretería El Serrucho: answers inventory questions, generates exact quotes from live POS pricing, transcribes voice notes, and escalates to staff when a human is needed.
 * **Tech:** n8n · WAHA · OpenAI (via OpenRouter) · `text-embedding-3-small` + pgvector · Groq Whisper · Supabase · PostgreSQL · Docker.
-* **Highlights:** **5-layer retrieval pipeline** over a 5,000+ SKU catalog (lexical & measurement parsing → 3.5k-term catalog dictionary → `pg_trgm` fuzzy matching → vector search → LLM semantic rescue), resolving the common query in **~900 ms at zero marginal cost**.
+* **Highlights:** **5-layer retrieval pipeline** over a 7,000+ SKU catalog (lexical & measurement parsing → 3.5k-term catalog dictionary → `pg_trgm` fuzzy matching → vector search → LLM semantic rescue), resolving the common query in **~900 ms at zero marginal cost**.
 * **Measured:** benchmarked on **320 real customer queries** — **76.9% exact recall, 6.3% failure rate**. Redesigning the embedding input (description + category + colloquialisms) lifted the vector layer's signal-to-noise **10x**, adding **+7 correct matches** over lexical-only retrieval.
 * **Production guards:** read-only DB connection for safe pricing · LLM output sanitization · rate limiting · CI sync tests.
 
