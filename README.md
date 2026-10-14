@@ -1,91 +1,94 @@
 # Hi there, I'm Gustavo Reyes 👋
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F80ED&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+(Python+%C2%B7+React);LLM%2C+RAG+%26+AI+Agents+in+Production;Software+real+businesses+use+every+day" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2F80ED&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+(Python+%C2%B7+TypeScript);RAG%2C+Vector+Search+%26+Evaluations+in+Production;5+Production+Repos+with+Passing+CI" alt="Typing SVG" />
 </div>
 
 ---
 
 ### 🚀 About Me
 
-Full Stack Developer who ships **AI into production**, not into demos. Four of the projects below run every day at real businesses — an autonomous WhatsApp agent that serves live customers, an analytics app, a mobile POS, and a humanitarian real-time feed.
+Full Stack Developer with an Operations Management background (led retail store operations with a team of 7 and cut inventory discrepancies by ~30%). I build software to solve the operational bottlenecks I experienced first-hand, with production systems running daily for paying businesses.
 
-I measure what I ship. The retrieval pipeline behind my WhatsApp agent is benchmarked against **320 real customer queries** (76.9% exact recall, 6.3% failure rate), and I redesigned the embedding input to lift the vector layer's signal-to-noise **10x**.
-
-Coming from an Operations Management background (where I led a team of 7 and cut inventory discrepancies by ~30%), I approach engineering problem-first: I've seen the bottlenecks from the inside and built the software to fix them.
-
-- 🌍 **Based in:** Venezuela · **Available for 100% Remote Roles**
-- 🗣️ **Languages:** Spanish (Native) · English (B2 – Upper Intermediate)
-- 🧠 **Focus:** RAG & Vector Search · AI Agents & Tool Calling · LLM Evaluation · Full-Stack SaaS · React Native
-- 📫 **Reach me at:** gusreyes_dev@outlook.com · [LinkedIn](https://www.linkedin.com/in/gusreyes-dev/)
+- 🌐 **Portfolio:** [gusdev.me](https://gusdev.me)
+- 🧠 **Focus:** Multi-Stage RAG Pipelines · Production AI Agents · Deterministic Evaluations · Offline-First Architectures · Hybrid Cloud Sync
+- 🌍 **Location:** Venezuela · Available for 100% Remote Roles
+- 🗣️ **Languages:** Spanish (Native) · English (B2 certified, C1 Reading/Writing)
+- 📫 **Contact:** [LinkedIn](https://www.linkedin.com/in/gustavo-reyes-dev) · gusreyes_dev@outlook.com
 
 ---
 
-### 💻 Tech Stack & Tools
+### 💻 Stack & Verified Tooling
 
-**AI & Retrieval**  
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-6566F1?style=for-the-badge&logo=openai&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-
-**Frontend & Mobile**  
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-**Backend & Data**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=3ECF8E)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Engineering Practice**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![TDD](https://img.shields.io/badge/TDD_%2F_Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+- **AI, RAG & Search:** OpenAI API, OpenRouter, Google Gemini, `pgvector`, `pg_trgm`, Groq Whisper, n8n, automated retrieval ablation suites.
+- **Languages & Frameworks:** TypeScript, Python, JavaScript, SQL, React 18, React Native (Expo SDK 54), Next.js, Flask.
+- **Databases & Cloud:** PostgreSQL, Supabase (Auth, Row Level Security, Edge Functions, Realtime), Docker.
+- **Testing & Continuous Integration:** Pytest, Jest, GitHub Actions CI matrices, TDD.
 
 ---
 
-### 🏆 Featured Projects
+### 🛠️ Featured Systems & Engineering Case Studies
 
-*Software in real production use, with a focus on AI integration, secure data access, and measured results.*
+#### 1. <img src="https://github.com/user-attachments/assets/ac3c26e3-547b-4787-8965-9bd38d86013a" width="24" height="24" style="vertical-align: middle; border-radius: 4px;" /> [WhatsApp AI Agent - "Perucho"](https://github.com/Gus2708/whatsapp-agent) · *In production at Ferretería El Serrucho*
+Autonomous customer service and quoting assistant serving live retail customers over a 7,000+ SKU hardware store catalog.
+* **5-Layer Retrieval Architecture:** Fast lexical & measurement parser (`parser_medidas.js`) → 3,500-term catalog dictionary → PostgreSQL `pg_trgm` fuzzy matching → vector similarity via Supabase `pgvector` (`text-embedding-3-small`) → LLM fallback via OpenRouter.
+* **Performance & Cost:** Resolves high-frequency queries in ~900 ms on the zero-marginal-cost lexical layer before invoking LLM inference.
+* **Deterministic Evaluation:** Benchmarked against 320 synthetic colloquial customer queries (`scripts/_test_coloquial.js`), scoring 76.9% exact recall and 6.3% failure rate. Redesigned compound embedding strings (title + category + local synonyms) lifted vector signal-to-noise 10x over raw text.
+* **Operational Impact:** Human escalation requests dropped from 46 historical cases to 2 in the last 10 days, with 61% of escalations filtered as non-retrieval operational inquiries.
+* **Safety & Guardrails:** Enforces read-only database connections for pricing, prompt injection sanitization, rate limiting, and automated CI sync tests.
 
-#### 1. [WhatsApp AI Agent — "Perucho"](https://github.com/Gus2708/whatsapp-agent) — Autonomous Customer Service & Quoting Assistant · *In production*
-An event-driven WhatsApp agent serving real customers daily at Ferretería El Serrucho: answers inventory questions, generates exact quotes from live POS pricing, transcribes voice notes, and escalates to staff when a human is needed.
-* **Tech:** n8n · WAHA · OpenAI (via OpenRouter) · `text-embedding-3-small` + pgvector · Groq Whisper · Supabase · PostgreSQL · Docker.
-* **Highlights:** **5-layer retrieval pipeline** over a 7,000+ SKU catalog (lexical & measurement parsing → 3.5k-term catalog dictionary → `pg_trgm` fuzzy matching → vector search → LLM semantic rescue), resolving the common query in **~900 ms at zero marginal cost**.
-* **Measured:** benchmarked on **320 real customer queries** — **76.9% exact recall, 6.3% failure rate**. Redesigning the embedding input (description + category + colloquialisms) lifted the vector layer's signal-to-noise **10x**, adding **+7 correct matches** over lexical-only retrieval.
-* **Production guards:** read-only DB connection for safe pricing · LLM output sanitization · rate limiting · CI sync tests.
+<details>
+  <summary>📸 <b>View Flight Deck Interface</b></summary>
+  <br />
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/1597cb5b-3091-45fe-8e84-21f49a11c19f" alt="Flight Deck Live Preview" width="800" style="border-radius: 8px;" />
+  </p>
+</details>
 
-#### 2. [El Serrucho GO](https://github.com/Gus2708/el-serrucho-go) — Real-Time Inventory & Sales Analytics · *In production* · [Live demo](https://el-serrucho-go.vercel.app)
-A mobile + PWA analytics dashboard in daily use at the store, shipped as an Android app (EAS) and an installable PWA from a single codebase via `react-native-web`.
-* **Tech:** Expo · React Native · TypeScript · Supabase · PostgreSQL · Python · Google Gemini.
-* **Highlights:** closed-loop writeback engine bridging an on-premise POS to the cloud through a Python watchdog · Gemini anomaly detection in Supabase Edge Functions · RLS role-approval gates · the staff queue that resolves the AI agent's escalations · virtualized inventory list.
+#### 2. <img src="https://github.com/user-attachments/assets/148272ad-d174-47fe-8ea9-056fe11740d7" width="24" height="24" style="vertical-align: middle; border-radius: 4px;" /> [El Serrucho GO](https://github.com/Gus2708/el-serrucho-go) · *In production* · [Live app](https://el-serrucho-go.vercel.app)
+Store operations management, inventory tracking, and field ordering platform delivered as an Android app (EAS) and an installable PWA from a single codebase via `react-native-web`.
+* **Scale & Test Suite:** 34,800+ lines of TypeScript across 130+ files, backed by 61 Jest unit and integration tests across 10 suites in GitHub Actions CI.
+* **Architecture:** Closed-loop writeback system linking local POS hardware to the cloud via a Python watchdog process. Implements dual-currency order settlement (USD and bolívares with markup calculation) and eliminates race conditions between order emission and item persistence.
+* **Cloud & Security:** Supabase Edge Functions with Gemini anomaly detection, Row Level Security permission gates, and a staff resolution queue for WhatsApp bot escalations.
 
-#### 3. [CaobaPOS](https://github.com/Gus2708/CaobaPos) — Mobile Point-of-Sale & Inventory System · *Client project, in production* · [Live demo](https://caoba-pos.vercel.app)
-A tablet-first cross-platform POS actively used by a paying café client, built for small businesses with unstable internet.
-* **Tech:** React Native · Expo (SDK 54) · TypeScript · Supabase · PostgreSQL.
-* **Highlights:** offline-first inventory · real-time sync · multi-tenant access via Row Level Security · barcode scanning · branded PDF invoices · date-range financial dashboards with transaction cancellation and automatic stock restoration.
+<details>
+  <summary>📸 <b>View Mobile Interface Mockup</b></summary>
+  <br />
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/b9ed518a-0443-4253-8685-307c5911c090" alt="El Serrucho GO Mockup Interface" width="800" style="border-radius: 8px;" />
+  </p>
+</details>
 
-#### 4. [Venezuela Earthquake Feed](https://github.com/Techeasy-Latam/vzla-sismo-feed) — Real-Time Verified Humanitarian Feed · *Open source · 6 ★* · [Live demo](https://vzla-sismo-feed.vercel.app)
-A verified real-time information feed built with the Techeasy LATAM community during the Venezuela earthquake, to counter misinformation when it mattered most. **73 commits contributed.**
-* **Tech:** Next.js · TypeScript · Supabase · Claude API · PWA.
-* **Highlights:** AI-assisted verification of incoming reports · installable PWA for low-connectivity conditions · built and shipped under real time pressure with a distributed team.
+#### 3. <img src="https://github.com/user-attachments/assets/3f9e2a55-e9e6-4858-a101-8b42575fe68e" width="24" height="24" style="vertical-align: middle; border-radius: 4px;" /> [CaobaPOS](https://github.com/Gus2708/CaobaPos) · *Client project in production* · [Live app](https://caoba-pos.vercel.app)
+Tablet-first cross-platform POS and inventory system actively operated by a commercial café client in an environment with unstable internet connectivity.
+* **Quality & CI:** 100 Jest tests across 19 test suites verified on every commit in GitHub Actions CI.
+* **Offline-First Resilience:** Optimistic local state management with background reconciliation to Supabase PostgreSQL, barcode scanning, thermal receipt and branded PDF generation.
+* **Business Logic:** Date-range financial reporting, role-based authorization via PostgreSQL RLS, and transaction cancellation with automatic stock restoration.
 
-#### 5. [Splitty](https://github.com/4GeeksAcademy/splitty-kmjg) — AI-Powered Expense Splitting Platform · *Final Capstone, 4Geeks Academy* · [Live demo](https://splitty-kmjg.vercel.app/)
-A full-stack FinTech app that removes the friction of group expenses through AI data extraction and optimized settlements.
-* **Tech:** React 18 · Flask · PostgreSQL · Supabase · Google Gemini · PayPal · Vercel · Render.
-* **Highlights:** heap-based settlement algorithm that **cuts inter-party transactions by up to 50%** · Gemini-powered receipt parsing · 30+ RESTful endpoints with JWT lifecycle, bcrypt and rate limiting · dual-cloud deploy via GitHub CI/CD.
+<details>
+  <summary>📸 <b>View Tablet Interface</b></summary>
+  <br />
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/7ec0c305-bb6f-4235-b339-82491628c99c" alt="Caoba POS Tablet Interface" width="800" style="border-radius: 8px;" />
+  </p>
+</details>
+
+#### 4. [Hybrid-on-Cloud](https://github.com/Gus2708/Hybrid-on-cloud) · *Enterprise synchronization bridge*
+Real-time bridge connecting an on-premise Windows desktop POS system (`.dat` files) to Supabase cloud infrastructure.
+* **Verification:** 140 pytest unit and integration tests running on `windows-latest` via GitHub Actions CI.
+* **Core Capabilities:** Bidirectional price updating (`batch_price_updater`), transactional data integrity checks, multi-source entity reconciliation, and change-data capture.
+
+#### 5. [Retrieval Ablation CLI](https://github.com/Gus2708/retrieval-ablation) · *Open source research tooling*
+Command-line benchmarking suite designed to perform automated layer-by-layer ablation studies on multi-stage search and RAG architectures.
+* **Functionality:** Isolates lexical, trigram, dense vector, and LLM re-ranking layers to measure marginal recall gains, latency overhead, and token cost per stage.
+
+#### 6. [Venezuela Earthquake Feed](https://github.com/Techeasy-Latam/vzla-sismo-feed) · *Open source humanitarian initiative · 6 ⭐* · [Live app](https://vzla-sismo-feed.vercel.app)
+Real-time verified information platform built during the Venezuela earthquake to counteract crisis misinformation.
+* **Contributions:** 73 commits contributed to core development. Built with Next.js, Supabase, and Claude API for report verification, optimized as an offline-ready PWA for low-connectivity emergencies.
 
 ---
 
-### 📈 GitHub Analytics
+### 📊 GitHub Activity
 
 <div align="center">
 
